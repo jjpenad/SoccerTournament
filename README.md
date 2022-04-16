@@ -88,3 +88,35 @@ python manage.py runserver
 
 Make sure your localhost and port 8000 are free, otherwise the app will not execute.
 Open your browser on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+### 4. Endpoints:
+
+The most relevant endpoints in the app are:
+
+1. [List Technical staff](http://127.0.0.1:8000/api/technicalStaff/)
+
+2. [List Teams](http://127.0.0.1:8000/api/teams/)
+
+3. [List Players](http://127.0.0.1:8000/api/players/)
+
+4. [Amount of players registered in the tournament](http://127.0.0.1:8000/api/players/stats/total-count)
+
+5. [Amount of teams registered in the tournament](http://127.0.0.1:8000/api/teams/stats/total-count)
+
+6. [Youngest Player](http://127.0.0.1:8000/api/players/stats/youngest-player)
+
+7. [Oldest Player](http://127.0.0.1:8000/api/players/stats/oldest-player)
+
+8. [List Substitutes](http://127.0.0.1:8000/api/players/substitutes)
+
+9. [Amount of Substitutes in the tournament](http://127.0.0.1:8000/api/players/substitutes/stats/total-count)
+
+10. [Average amount of Substitutes per Team](http://127.0.0.1:8000/api/players/substitutes/stats/average-per-team)
+
+11. [Team with most players registered](http://127.0.0.1:8000/api/teams/stats/team-most-registered-players)
+
+12. [Average age of players](http://127.0.0.1:8000/api/players/stats/average-age)
+
+13. [Average amount of Players per Team](http://127.0.0.1:8000/api/players/stats/average-per-team)
+
+14. [Oldest technical staff](http://127.0.0.1:8000/api/technicalStaff/stats/oldest-technical-staff)

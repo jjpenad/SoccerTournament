@@ -1,7 +1,6 @@
 # SoccerTournament
 
-This project consist of a simple REST service build with python framework FLASK that includes singup and login endpoint to create an user and then login which will return a JWT token.
-With help of this token, you will be able to interact with different endpoint that allow you to create Restaurants into the database.
+This project consist of a simple REST service build with python framework Django that includes basic operations for a simple Model of a Soccer Tournament.
 
 ## Models
 
